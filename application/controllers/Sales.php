@@ -87,7 +87,7 @@ class Sales extends CI_Controller {
 		// $data['status']='false';
 		$this->session->set_flashdata('message_type', 'success');
 		$this->session->set_flashdata('message', 'Edit data successfully');
-		redirect('detail_transaksi');
+		redirect('sales/detail_transaksi');
 	}
 
 	public function confirm($id_transaksi)
